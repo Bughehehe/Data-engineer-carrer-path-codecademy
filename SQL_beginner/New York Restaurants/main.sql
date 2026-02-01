@@ -7,7 +7,7 @@ CREATE TABLE nomnom (
     price TEXT, 
     health TEXT
 );
-.import "C:\\Users\\olekk\\OneDrive\\Pulpit\\Data-engineer-carrer-path-codecademy\\restaurants.csv" nomnom
+.import "restaurants.csv" nomnom
 
 -- REMOVE UNNECESARY ROW
 DELETE FROM nomnom
